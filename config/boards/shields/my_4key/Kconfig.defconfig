@@ -3,4 +3,7 @@ if SHIELD_MY_4KEY
 config ZMK_KEYBOARD_NAME
     default "My 4Key Pad"
 
+config ZMK_BOARD_COMPAT
+    def_bool y
+
 endif
